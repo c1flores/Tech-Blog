@@ -26,7 +26,7 @@ User.init(
             allowNull: false
 
         },
-        id: {
+        password: {
             type: DataTypes.INTEGER,
             allowNull: false,
             validate: {

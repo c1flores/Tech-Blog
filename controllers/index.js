@@ -1,9 +1,9 @@
 //Dependencies
 const router = require('express').Router();
 
-const userRoutes = require('./api/');
-const postRoutes = require('./home-routes/');
-const commentRoutes = require('./dashboard-routes');
+const apiRoutes = require('./api/');
+const homeRoutes = require('./home-routes');
+const dashboardRoutes = require('./dashboard-routes');
 
 //Create modular route handlers
 router.use('/', homeRoutes);
