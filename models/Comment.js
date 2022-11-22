@@ -1,6 +1,6 @@
 //Install dependencies
-const { Sequelize, Model, Dataypes } = require('sequelize');
-const sequelize = require('..config/config');
+const { Sequelize, Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection.js');
 
 //Create comment model
 class Comment extends Model { }
