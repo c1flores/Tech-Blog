@@ -1,7 +1,7 @@
 //Install dependencies
 const router = require("express").Router();
-const { Comment } = require("../../models/");
-const withAuth = require("../../utils/auth");
+const { Comment } = require("../../models");
+const withAuth = require("../../utils/auth.js");
 
 //Post route for creating comment
 router.post("/", withAuth, (req, res) => {

@@ -5,12 +5,12 @@ const signupFormHandler = async function (event) {
     const usernameEl = document.querySelector("#username-input-signup");
     const passwordEl = document.querySelector("#password-input-signup");
     fetch("/api/user", {
-        method: "post",
+        method: "POST",
         body: JSON.stringify({
             username: usernameEl.value,
             password: passwordEl.value
         }),
-        headers: { "Content-Type": "application/json" }
+        headers: { "content-Type": "application/json" }
     })
         .then(function () {
             document.location.replace("/dashboard");

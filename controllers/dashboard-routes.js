@@ -1,7 +1,7 @@
 //Install dependenciesS
 const router = require('express').Router();
-const { Post } = require("../models/");
-const withAuth = require("../utils/auth");
+const { Post } = require("../models");
+const withAuth = require("../utils/auth.js");
 
 //Get dashboard view of all posts
 router.get("/", withAuth, (req, res) => {
@@ -12,7 +12,7 @@ router.get("/", withAuth, (req, res) => {
     })
 
     .then(dbPostData => {
-        const posts = dpPostData.map((post) => post.get ({ plain: true }));
+        const posts = dbPostData.map((post) => post.get ({ plain: true }));
         res.render("all-posts-admin", {
             layout: "dashboard",
             posts

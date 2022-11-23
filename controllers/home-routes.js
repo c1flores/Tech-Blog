@@ -1,6 +1,6 @@
 //Install dependencies
 const router = require('express').Router();
-const { Post, Comment, User } = require("../models/");
+const { Post, Comment, User } = require("../models");
 
 //Get all posts for homepage
 router.get("/", (req, res) => {

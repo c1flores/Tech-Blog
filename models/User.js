@@ -22,12 +22,12 @@ User.init(
 
         },
         username: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false
 
         },
         password: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 len: [4]
