@@ -1,7 +1,6 @@
 :root {
     --primary: #ffffff;
     --secondary: #1A2C44;
-    --tertiary: #693237;
     --dark: #0f1b07;
     --border-radius: 0.2rem;
   }
@@ -29,13 +28,13 @@
     font-family: "Inconsolata", monospace;
     font-weight: 700;
     margin: 0;
-    color: var(--tertiary);
+    color: var(--primary);
     line-height: 1.25;
     letter-spacing: 1px;
   }
   
   h2 a:visited {
-    color: var(--tertiary);
+    color: var(--primary);
   }
   
   h2 a {
