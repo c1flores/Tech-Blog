@@ -19,7 +19,7 @@
 ![](https://user-images.githubusercontent.com/81927296/204045176-ddfad56b-1681-4e56-9b09-8f625fd65e98.gif)
 
 ## Deployment Link
-[Heroku](https://techh-bloggg.herokuapp.com/)
+[Heroku App](https://techh-bloggg.herokuapp.com/)
 
 ## Installation
 
