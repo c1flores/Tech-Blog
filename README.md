@@ -1,9 +1,10 @@
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [Why does an MVC paradigm matter?](#why-does-an-mvc-paradigm-matter?)
+  - [Why does an MVC paradigm matter?](#why-does-an-mvc-paradigm-matter)
   - [Screen Capture](#screen-capture)
-  - [Link to Screen Recording of Application](#link-to-screen-recording-of-application)
+  - [Deployment Link](#deployment-link)
   - [Installation](#installation)
   - [Usage](#usage)
   
@@ -15,18 +16,27 @@
  MVC, short for Model, View, and Controller, is an architectural pattern used for efficiently relating the user interfaces to underlying data models and organizing to relate the application code. This methodology easily organizes large-size web applications, supports asynchronicity, and the modular components allow for faster development processes. 
 
 ## Screen Capture
-![]()
+![](https://user-images.githubusercontent.com/81927296/204045176-ddfad56b-1681-4e56-9b09-8f625fd65e98.gif)
 
-## Link to Screen Recording of Application
-[Google Drive Link]()
+## Deployment Link
+[Heroku](https://techh-bloggg.herokuapp.com/)
 
 ## Installation
 
   - Fork repository
   - Setup Node project
   - Install dependencies
-  - 
+  - Ensure bcrypt package is installed
+  - Ensure connection-session-sequelize package is installed
+  - Ensure dotenv package is installed
+  - Ensure express package is installed
+  - Ensure express-handlebars package is installed
+  - Ensure express-session package is installed
+  - Ensure mysql2 package is installed
+  - Ensure sequelize package is installed
   
 ## Usage
 
-  - 
+  - Open integrated terminal in personal IDE
+  - Type "Node server.js"
+  - Open app in local host port
