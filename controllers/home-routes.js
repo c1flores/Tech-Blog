@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
         .then((dbPostData) => {
             const posts = dbPostData.map((post) => post.get({ plain: true }));
 
-            res.render("all-posts", { posts });
+            res.render("all-posts",  { posts, loggedIn: req.session.loggedIn });
         })
         .catch((err) => {
             res.status(500).json(err);
@@ -25,6 +25,7 @@ router.get("/post/:id", (req, res) => {
             {
                 model: Comment,
                 include: [User],
+                loggedIn: req.session.loggedIn
             },
         ],
     })
@@ -32,7 +33,7 @@ router.get("/post/:id", (req, res) => {
             if (dbPostData) {
                 const post = dbPostData.get({ plain: true });
 
-                res.render("single-post", { post });
+                res.render("single-post", { post, loggedIn: req.session.loggedIn });
             } else {
                 res.status(404).end();
             }

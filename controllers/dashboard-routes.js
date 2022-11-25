@@ -15,7 +15,8 @@ router.get("/", withAuth, (req, res) => {
         const posts = dbPostData.map((post) => post.get ({ plain: true }));
         res.render("all-posts-admin", {
             layout: "dashboard",
-            posts
+            posts,
+            loggedIn: req.session.loggedIn
         });
     })
     .catch(err => {
@@ -27,7 +28,8 @@ router.get("/", withAuth, (req, res) => {
 //Get dashboard view of new post
 router.get("/new", withAuth, (req, res) => {
     res.render("new-post", {
-        layout: "dashboard"
+        layout: "dashboard",
+        loggedIn: req.session.loggedIn
     });
 });
 
@@ -40,7 +42,8 @@ router.get("/edit/:id", withAuth, (req, res) => {
 
                 res.render("edit-post", {
                     layout: "dashboard",
-                    post
+                    post,
+                    loggedIn: req.session.loggedIn
                 });
             } else {
                 res.status(404).end();
