@@ -1,6 +1,4 @@
 # Table of Contents
-
-- [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Why does an MVC paradigm matter?](#why-does-an-mvc-paradigm-matter)
   - [Screen Capture](#screen-capture)
@@ -18,8 +16,8 @@
 ## Screen Capture
 ![](https://user-images.githubusercontent.com/81927296/204045176-ddfad56b-1681-4e56-9b09-8f625fd65e98.gif)
 
-## Deployment Link
-[Heroku App](https://techh-bloggg.herokuapp.com/)
+## Heroku Application Deployment
+[Application Deployment Link](https://techh-bloggg.herokuapp.com/)
 
 ## Installation
 
