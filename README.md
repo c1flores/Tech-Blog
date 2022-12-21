@@ -21,20 +21,11 @@
 
 ## Installation
 
-  - Fork repository
-  - Setup Node project
-  - Install dependencies
-  - Ensure bcrypt package is installed
-  - Ensure connection-session-sequelize package is installed
-  - Ensure dotenv package is installed
-  - Ensure express package is installed
-  - Ensure express-handlebars package is installed
-  - Ensure express-session package is installed
-  - Ensure mysql2 package is installed
-  - Ensure sequelize package is installed
+  1. Fork and clone repository to local machine.
+  2. Run ```npm i``` to install dependencies in local project directory. 
   
 ## Usage
 
-  - Open integrated terminal in personal IDE
-  - Type "Node server.js"
-  - Open app in local host port
+  1. Open integrated terminal in personal IDE.
+  2. Run ```node server.js```.
+  3. Open app in local host port.
