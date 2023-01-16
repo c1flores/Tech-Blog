@@ -1,8 +1,9 @@
 # Table of Contents
   - [Overview](#overview)
   - [Why does an MVC paradigm matter?](#why-does-an-mvc-paradigm-matter)
+  - [Technologies Used](#technologies-used)
   - [Screen Capture](#screen-capture)
-  - [Deployment Link](#deployment-link)
+  - [Heroku Application Deployment](#heroku-application-deployment)
   - [Installation](#installation)
   - [Usage](#usage)
   
