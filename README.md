@@ -12,14 +12,8 @@
 
 ## Why does an MVC paradigm matter?
  MVC, short for Model, View, and Controller, is an architectural pattern used for efficiently relating the user interfaces to underlying data models and organizing to relate the application code. This methodology easily organizes large-size web applications, supports asynchronicity, and the modular components allow for faster development processes. 
-
-## Screen Capture
-![](https://user-images.githubusercontent.com/81927296/204045176-ddfad56b-1681-4e56-9b09-8f625fd65e98.gif)
-
-## Heroku Application Deployment
-[Application Deployment Link](https://techh-bloggg.herokuapp.com/)
-
-## Technologies Used
+ 
+ ## Technologies Used
 
 <div style="display: inline_block"><br>
   <img height="40" align="center" alt="Chris-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -41,6 +35,13 @@
 </div>
 
 </br>
+
+## Screen Capture
+![](https://user-images.githubusercontent.com/81927296/204045176-ddfad56b-1681-4e56-9b09-8f625fd65e98.gif)
+
+## Heroku Application Deployment
+[Application Deployment Link](https://techh-bloggg.herokuapp.com/)
+
 
 ## Installation
 
