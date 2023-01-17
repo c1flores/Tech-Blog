@@ -1,4 +1,9 @@
-# Table of Contents
+
+<!-- omit in toc -->
+# Tech-Blog
+
+<!-- omit in toc -->
+## Table of Contents
   - [Overview](#overview)
   - [What is an MVC Paradigm?](#what-is-an-mvc-paradigm)
   - [Technologies Used](#technologies-used)
